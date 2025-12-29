@@ -109,8 +109,8 @@ modules:
       - install -Dm 755 ../feishin.sh /app/bin/feishin
     sources:
       - type: archive
-        url: https://github.com/jeffvli/feishin/releases/download/v0.21.1/Feishin-linux-x64.tar.xz
-        sha256: 3cdbd79b9a8efb6a111fd14144614663576c94af97bcf62aefe4a7c3c45fe8a2
+        url: https://github.com/jeffvli/feishin/releases/download/v1.0.2/Feishin-linux-x64.tar.xz
+        sha256: c066832d3b89c40b842dc2683db9832eaa381e7dc14fc1e9dfdee6cdcdcd1969
         dest: main
         x-checker-data:
           type: json
